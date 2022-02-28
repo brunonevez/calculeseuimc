@@ -1,0 +1,106 @@
+*{
+			margin: 0;
+			padding: 0;
+			font-family: Arial;	
+		}
+		body{
+			background: linear-gradient(45deg, #151D3B, #D82148, #6EBF8B, #DADBBD);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+
+		}
+		.container{		
+			width: 100%;
+			height: 100vh;		
+			display: flex;
+  			flex-wrap: wrap;
+  			align-items: center;
+  			justify-content: center;		
+		}
+		.caixa, .caixa-2{
+			width: 330px;
+			height: 370px;
+			background-color: rgba(21, 29, 59, 0.30); /* Transparent Yellow */
+			margin: 40px;	
+			border-radius: 7px;	
+			box-shadow: 1px 1px 10px 0.1px;	
+		}
+		.caixa{
+			display: flex;
+			align-items: center;
+  			justify-content: center; 			
+		}
+		
+		#altura, #peso, #button{
+			width: 220px;
+			height: 30px;
+			margin: 10px;
+			border: none;
+			border-radius: 5px;
+		}
+		button{
+			color: white;
+			width: 70px;
+			padding-left: 10px;
+			background-color: rgba(21, 29, 59, 0.30);
+			
+		}
+		legend{
+			padding-left: 10px;
+			color: white;
+		}
+
+		ul{
+			list-style: none;
+			padding-top: 10px;
+		}
+		li{
+			color: white;
+			height: 200px;
+			height: 30px;
+			margin: 12px 12px;
+			line-height: 30px;
+			background-color: rgba(216, 33, 72, 0.30);
+			border-radius: 5px;
+			clear: both;
+		}
+		p{
+			margin: 5px;
+		}
+		.titulo-result, #resultado{
+			font-size: 25px;
+			color: white;
+			margin: 12px 12px;
+			float: left;	
+		}
+		#resutlado{
+			float: left;
+		}
+		.status, .status2, .status3, .status4, .status5, .status6, .status7{
+			height: 8px;
+			width: 8px;
+			background: red;
+			border-radius: 5px;
+			float: left;
+			margin: 12px;
+		}
+		.status2{
+			background-color: yellow;
+		}
+		.status3{
+			background: green;
+		}
+		.status4{
+			background-color: yellow;;
+		}
+		.status5{
+			background-color: rgba(205,87, 0);
+		}
+		.status6{
+			background: red;
+			float: left;
+		}
+		.status7{
+			background: #ccc;
+			float: left;
+		}

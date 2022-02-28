@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Calculadora IMC</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="bg">
+<div class="container">
+	<div class="caixa">
+		
+		<form>
+			<legend>Altura em CM</legend>
+			<input type="text" id="altura" name="altura">
+
+			<legend>Peso em KG</legend>
+			<input type="text" id="peso" name="peso">
+			<br>
+			<button type="button" id="button" onclick="calcular();">Calcular</button>
+			<p id="notificacao" style=" text-align: center;
+			"></p>
+		</form>
+	</div>
+	<div class="caixa-2">
+		<h1 class="titulo-result">Resultado:</h1>
+		<p id="resultado"></p>
+		<ul>
+			<li id="muitobaixo" class="Muito abaixo do peso">
+			<div class="status"></div><p>Abaixo de 17 - Muito abaixo do peso</p>
+			</li>
+
+			<li id="abaixodopeso" class="Abaixo do peso">
+			<div class="status2"></div>	<p>Entre 17 e 18,49 - Abaixo do peso</p>
+			</li>
+
+			<li id="pesonormal" class="Peso normal">
+			<div class="status3"></div>	<p>Entre 18,5 e 24,99 - Peso normal</p>
+			</li>	
+
+			<li id="acimadopeso" class="Acima do peso">
+			<div class="status4"></div>	<p>Entre 25 e 29,99 - Acima do peso</p>
+			</li>	
+
+			<li id="obesidade1" class="Obesidade I">
+			<div class="status5"></div>	<p>Entre 30 e 34,99 - Obesidade I</p>
+			</li>
+
+			<li id="obesidade2" class="Obesidade II">
+			<div class="status6"></div>	<p>Entre 35 e 39,99 - Obesidade II</p>
+			</li>
+			<li id="obesidade3" class="Obesidade III">
+			<div class="status7"></div>	<p>Maior que 40,00 - Obesidade III</p>
+			</li>
+		</ul>
+	</div>	
+	</div>
+</div>
+<script type="script.js"></script>
+</body>
+</html>
