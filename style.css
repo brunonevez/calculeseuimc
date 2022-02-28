@@ -15,7 +15,8 @@
 			display: flex;
   			flex-wrap: wrap;
   			align-items: center;
-  			justify-content: center;		
+  			justify-content: center;
+  			min-width: 410px;		
 		}
 		.caixa, .caixa-2{
 			width: 330px;
